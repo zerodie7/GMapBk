@@ -23,5 +23,5 @@ Despliega tarjetas con la siguiente información:
 * Dentro del mapa se cuenta con los filtros descritos en el punto anterior.
 * Al seleccionar el punto marcado en mapa se muestra en una tarjeta los detalles de dicho punto.
 
-![alt text](https://github.com/zerodie7/GMapBk/blob/master/1.png?raw=true)
+* Vista previa en carpeta blob
 
