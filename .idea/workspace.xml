@@ -10,356 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="477678f4-32af-4cdd-8703-041381720359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/Android Studio Projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Appointment_Reminder/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Appointment_Reminder/app/src/main/java/academy/learnprogramming/Appointment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Appointment_Reminder/app/src/main/java/academy/learnprogramming/LoginActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Appointment_Reminder/app/src/main/java/academy/learnprogramming/MainFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Checkplace/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Checkplace/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ClimaAplication/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../EjemploTabLayout/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/bikestore.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/data/api/BikesApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/data/room/BikesDataBase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/data/room/dao/BikeDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/domain/Bikes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/utils/GPSTracker.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/utils/GenericAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/utils/Utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/ListBikesFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/vm/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/vm/GMapBikesViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/vm/ListBikesViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fab_close.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fab_open.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/rotate_backward.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/rotate_forward.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_24px.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_directions_bike_24px.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_pedal_bike_24px.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/g_map_bikes_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_location_bikes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_bikes_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/map_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/bikes_navigation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ExampleGridView/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Email-Password-Authentication-to-the-Appointment-Reminder/Appointment_Reminder/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/java/academy/learnprogramming/Appointment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/java/academy/learnprogramming/GoogleSignInActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/java/academy/learnprogramming/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/java/academy/learnprogramming/MainFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/layout/activity_google_sign_in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/layout/fragment_add_appointment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-(Demonstration)-Adding-Google-Authentication-to-the-Appointment-Reminder-App/Appointment_Reminder/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-Link-Authentication-Using-the-SDK/FirebaseEmailLinkAuthenticationSDK/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK/.idea/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Email-and-Password-Authentication-using-the-SDK/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/androidTest/java/academy/learnprogramming/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/java/academy/learnprogramming/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/app/src/test/java/academy/learnprogramming/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-Using-a-Phone-Number/PhoneNumberSignInAuthenticationExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/androidTest/java/academy/learnprogramming/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/java/academy/learnprogramming/ExitActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/java/academy/learnprogramming/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/layout/activity_exit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/app/src/test/java/academy/learnprogramming/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Facebook/FacebookSignInAuthenticationExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/androidTest/java/academy/learnprogramming/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/java/academy/learnprogramming/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/app/src/test/java/academy/learnprogramming/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Google/GoogleSignInAuthenticationExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/androidTest/java/academy/learnprogramming/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/java/academy/learnprogramming/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/app/src/test/java/academy/learnprogramming/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Microsoft/MicrosoftSignInAuthenticationExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/androidTest/java/academy/learnprogramming/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/java/academy/learnprogramming/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/app/src/test/java/academy/learnprogramming/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Authentication-(Kotlin)-Signing-in-with-Twitter/TwitterSignInAuthenticationExample/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-(Demonstration)-Employee-Database/FirebaseRealtimeDatabaseChallenge/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-(Demonstration)-Employee-Database/FirebaseRealtimeDatabaseChallenge/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Firebase/Source-code-Realtime-Database-Updating-and-Deleting/FirebaseRealtimeDatabaseExample/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/DashboardActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/NuevaNotaDialogFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/favoritos/FavoritosFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/notas/NotasFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/notas/NotasListAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/notas/NoteClickListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/notas/NoteLongClickListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/view/ui/perfil/PerfilFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/java/com/example/kotlinnotas/viewmodel/NuevaNotaDialogViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/res/layout/nueva_nota_dialog_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MVVM/KotlinNotas/app/src/main/res/menu/options_menu_nota_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Xcaret/Repo/xcaret_parks/app/src/main/java/com/xcaret/xcaret_parques/data/entity/PhotoEntity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../172.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../54.assets.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../74.fotos.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Checkplace/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Checkplace/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Checkplace/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Checkplace/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Checkplace/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Checkplace/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClimaAplication/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClimaAplication/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClimaAplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ClimaAplication/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ClimaAplication/.idea/render.experimental.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EjemploMapas/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EjemploMapas/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EjemploTabLayout/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EjemploTabLayout/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EjemploTabLayout/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../EjemploTabLayout/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../EjemploTabLayout/app/src/main/java/com/diegouma/ejemplotablayout/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../EjemploTabLayout/app/src/main/java/com/diegouma/ejemplotablayout/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ExampleGridView/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ExampleGridView/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ExampleGridView/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ExampleGridView/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SoilicitudHTTP/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SoilicitudHTTP/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SoilicitudHTTP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SoilicitudHTTP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -395,13 +51,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ck0vQkI726JEzc1mnp8ftRqE6J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -528,53 +184,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>84</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>96</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>95</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>142</line>
+          <line>141</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>144</line>
+          <line>143</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>147</line>
+          <line>146</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>97</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>99</line>
+          <line>98</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>90</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
-          <line>91</line>
-          <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/ListBikesFragment.kt</url>
@@ -590,6 +216,16 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/ListBikesFragment.kt</url>
           <line>65</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/anzen/android/examenandroid/view/bikes/ui/GMapBikesFragment.kt</url>
+          <line>90</line>
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

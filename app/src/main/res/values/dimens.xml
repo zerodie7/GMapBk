@@ -2,14 +2,14 @@
 <resources>
 
     <dimen name="separator">5dp</dimen>
-    <dimen name="icon_size_map">15dp</dimen>
+    <dimen name="icon_size_map">10dp</dimen>
     <dimen name="icon_stroke_map">2dp</dimen>
     <dimen name="icon_size_map_select">20dp</dimen>
     <dimen name="margin_dx">10dp</dimen>
-    <dimen name="image_size_map_selected">25dp</dimen>
+    <dimen name="image_size_map_selected">20dp</dimen>
     <dimen name="image_size_map">8dp</dimen>
     <dimen name="text_size_map_selected">4sp</dimen>
-    <dimen name="text_size_map">4sp</dimen>
+    <dimen name="text_size_map">2sp</dimen>
     <integer name="staggeredGridLayoutExt">450</integer>
     <integer name="staggeredGridLayoutMin">300</integer>
     <integer name="staggeredGridLayoutMax">400</integer>

@@ -22,3 +22,6 @@ Despliega tarjetas con la siguiente información:
 * Se implemento evento onClick en cada tarjeta la cual permite navegar a un nuevo fragmento, el cual despliega en un mapa la ubicación de la estación
 * Dentro del mapa se cuenta con los filtros descritos en el punto anterior.
 * Al seleccionar el punto marcado en mapa se muestra en una tarjeta los detalles de dicho punto.
+
+![alt text](https://github.com/zerodie7/GMapBk/blob/master/1.png?raw=true)
+

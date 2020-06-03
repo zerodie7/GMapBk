@@ -36,13 +36,12 @@ import com.google.android.gms.maps.model.*
 import com.yarolegovich.discretescrollview.DSVOrientation
 import com.yarolegovich.discretescrollview.DiscreteScrollView
 import kotlinx.android.synthetic.main.g_map_bikes_fragment.*
-import kotlinx.android.synthetic.main.list_bikes_fragment.*
 import java.util.ArrayList
 
 class GMapBikesFragment : BaseFragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickListener{
 
     private var latGps = 19.4235714
-    private var lonGps = -99.1578191
+    private var lonGps = -98.1578191
     private var radiusLimit = 1500
     private var isFabOpen = false
     private var fabOpen: Animation? = null
@@ -231,6 +230,8 @@ class GMapBikesFragment : BaseFragment(), OnMapReadyCallback, GoogleMap.OnMarker
                     createBikesMarker(bk)
                 }
 
+                inside.clear()
+
                 lyActivity.visibility = View.VISIBLE
                 _viewModel.showService.value = false
                 val curPos = if(_viewModel.selectedPosition.value == -1) 0 else _viewModel.selectedPosition.value
@@ -342,27 +343,21 @@ class GMapBikesFragment : BaseFragment(), OnMapReadyCallback, GoogleMap.OnMarker
     private fun setupMap() {
         gMap?.setOnMarkerClickListener(this)
             gMap?.let { map ->
-                    val northeastBound = LatLng(19.46642562, -99.17859716)
-                    val southwestBound = LatLng(19.356542, -99.073197)
-                    val mapBounds = LatLngBounds(southwestBound, northeastBound)
+                // Restriccion de area en mapa para cordenadas especificas
+                    //val northeastBound = LatLng(19.46642562, -99.17859716)
+                    //val southwestBound = LatLng(19.356542, -99.073197)
+                    //val mapBounds = LatLngBounds(southwestBound, northeastBound)
                     val centerMap = LatLng(19.408921, -99.130357)
                     map.mapType = GoogleMap.MAP_TYPE_NORMAL
-                    map.setMinZoomPreference(12F)
-                    map.setMaxZoomPreference(14F)
+                    map.setMinZoomPreference(14F)
+                    map.setMaxZoomPreference(16F)
                     map.isBuildingsEnabled = false
                     map.uiSettings.isCompassEnabled = true
                     map.uiSettings.isTiltGesturesEnabled = false
                     map.uiSettings.isRotateGesturesEnabled = false
                     map.uiSettings.isMyLocationButtonEnabled = false
-                    map.setLatLngBoundsForCameraTarget(mapBounds)
-                    map.animateCamera(CameraUpdateFactory.newLatLngZoom(centerMap, 13F))
-
-                _parentActivity?.startGPSTrack(object : GPSTracker.LocationChangeListener{
-                        override fun onChange(latitude: Double, longitude: Double) {
-                            val result = FloatArray(3)
-                        }
-                    })
-
+                    //map.setLatLngBoundsForCameraTarget(mapBounds)
+                    map.animateCamera(CameraUpdateFactory.newLatLngZoom(centerMap, 15F))
             }
     }
 
