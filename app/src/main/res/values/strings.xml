@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">ExamenAndroid</string>
+    <string name="google_key_app_id" translatable="false">AIzaSyDeMGMjNZM8R7NTP_ELkbiQ3KPK7DMwxbo</string>
+    <string name="lbl_bike">No te encuentras cerca de un centro de bicicletas! \n Cambia de ubicación e intente de nuevo.</string>
+</resources>

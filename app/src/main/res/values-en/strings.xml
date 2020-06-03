@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_bike">Dont be near a bike center! \n Please change location and try again.</string>
+</resources>

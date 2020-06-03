@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View" />
+        <variable name="bikeViewModel"
+            type="com.anzen.android.examenandroid.view.bikes.vm.ListBikesViewModel" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/clBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.bikes.ui.ListBikesFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/generalContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:color="@color/colorPrimaryDark">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+        </RelativeLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/filterGps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/navigation"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="110dp"
+            android:visibility="invisible"
+            android:enabled="true"
+            app:backgroundTint="@color/colorAccent"
+            app:elevation="5dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="10dp"
+            app:srcCompat="@android:drawable/ic_dialog_map" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/filterBikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/navigation"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="160dp"
+            android:visibility="invisible"
+            android:enabled="true"
+            app:backgroundTint="@color/colorAccent"
+            app:elevation="5dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="10dp"
+            app:srcCompat="@android:drawable/ic_dialog_info" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/filterSlots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/navigation"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="60dp"
+            android:enabled="true"
+            android:visibility="invisible"
+            app:backgroundTint="@color/colorAccent"
+            app:elevation="5dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="10dp"
+            app:srcCompat="@drawable/ic_pedal_bike_24px">
+
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/navigation"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:enabled="true"
+            app:backgroundTint="@color/colorAccent"
+            app:elevation="5dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="10dp"
+            app:srcCompat="@drawable/ic_add_24px" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvBikes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_anchor="@+id/generalContainer"
+            app:layout_anchorGravity="center"
+            tools:listitem="@layout/item_location_bikes" />
+
+
+        <LinearLayout
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="?attr/actionBarSize"
+            android:visibility= "@{safeUnbox(bikeViewModel.empty) ? View.VISIBLE : View.GONE}"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/imgEmpty"
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                app:lottie_speed="3"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="bikestore.json"
+                app:lottie_imageAssetsFolder="assets"
+                app:lottie_loop="true" />
+
+            <TextView
+                android:id="@+id/txtEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_dx"
+                android:layout_marginTop="@dimen/margin_dx"
+                android:layout_marginEnd="@dimen/margin_dx"
+                android:gravity="center"
+                android:text="@string/lbl_bike"
+                android:textColor="@color/colorIconsEmpty"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</layout>
+
